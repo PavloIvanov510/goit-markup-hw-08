@@ -1,0 +1,98 @@
+/* header-style-global */
+.header-line {
+  border-bottom: 1px solid #e5e5e5;
+  .header-nav {
+    display: flex;
+    align-items: center;
+    &__logo {
+      font-family: "Raleway", sans-serif;
+      font-weight: bold;
+      font-size: 26px;
+      color: $colorTextBlue;
+      text-decoration: none;
+    }
+    &__logo--color {
+      color: #000000;
+    }
+    /* site-nav */
+  }
+}
+.site-nav {
+  display: flex;
+  margin-left: 93px;
+  color: $colorTextPrimary;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  &__item:not(:first-child) {
+    margin-left: 50px;
+  }
+  &__link {
+    display: block;
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    color: $colorTextPrimary;
+    text-decoration: none;
+    &:hover,
+    &:focus {
+      color: $colorTextBlue;
+    }
+  }
+  &__link--active {
+    color: $colorBackgroundBlue;
+    position: relative;
+    &::after {
+      position: absolute;
+      display: block;
+      content: "";
+      text-align: center;
+      width: 100%;
+      height: 1px;
+      bottom: -1px;
+      background-color: $colorBackgroundBlue;
+      border: 2px solid;
+      border-radius: 10px;
+    }
+  }
+}
+/* site-contact */
+.site-contact {
+  display: flex;
+  margin-left: auto;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  &__item:not(:first-child) {
+    margin-left: 50px;
+  }
+  &__link {
+    color: $colorTextSilver;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    .site-contact__svg {
+      margin-right: 10px;
+      fill: $colorIconSilver;
+    }
+    &:hover .site-contact__svg--mail,
+    &:focus .site-contact__svg--mail {
+      fill: $colorIconBlue;
+      transition: $time-delay250ms;
+    }
+    &:hover .site-contact__svg--tel,
+    &:focus .site-contact__svg--tel {
+      fill: $colorIconBlue;
+      transition: $time-delay250ms;
+    }
+    &:hover,
+    &:hover {
+      color: $colorIconBlue;
+      transition: $time-delay250ms;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+@import url(https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap);
+
+// color black #212121
+$colorTextPrimary: #212121;
+// color white #ffffff
+$colorBackgroundPrimary: #ffffff;
+$colorTextSecondary: #ffffff;
+$colorIconFill: #ffffff;
+
+//color silver #757575
+$colorTextSilver: #757575;
+$colorIconSilver: #757575;
+
+//color blue #2196f3
+$colorTextBlue: #2196f3;
+$colorBackgroundBlue: #2196f3;
+$colorIconBlue: #2196f3;
+
+//color WhiteSecondary #f5f4fa
+$colorTextWhiteSecondary: #f5f4fa;
+$colorBackgroundWhiteSecondary: #f5f4fa;
+$colorIconWhiteSecondary: #f5f4fa;
+
+//time-delay
+$time-delay250ms: 250ms cubic-bezier(0.4, 0, 0.2, 1);
