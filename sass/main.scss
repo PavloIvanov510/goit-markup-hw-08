@@ -3,14 +3,13 @@
 @import "./utils/reset";
 // components
 @import "./components/header";
-
-// @import "./components/hero";
+@import "./components/nav";
+@import "./components/hero";
 @import "./components/features";
 @import "./components/photo-studio";
 @import "./components/studio-team";
-// @import "./components/studio-custumers";
-// @import "./components/footer";
-// @import "./components/button-section-portfolio";
-// @import "./components/section-portfolio";
-// @import "./components/modal-windows";
-// @import "./components/form";
+@import "./components/studio-custumers";
+@import "./components/footer";
+@import "./components/button-section-portfolio";
+@import "./components/section-portfolio";
+@import "./components/modal-windows";
